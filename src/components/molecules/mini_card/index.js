@@ -1,12 +1,17 @@
 import React from 'react'
-import {Tombol} from '../../atoms';
-const MiniCard = ({title, desc}) => {
+import {Tombol, Gap} from '../../atoms';
+import TagWrapper from '../tag_wrapper';
+import {useHistory} from 'react-router-dom';
+const MiniCard = ({title, desc, link}) => {
+    const history = useHistory();
     return (
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title">{title}</h5>
-                        <p class="card-text">{desc}</p>
-                        <Tombol buttonName="Go to Lab" />
+                <div className="card text-center">
+                    <div className="card-body">
+                        <h5 className="card-title">{title}</h5>
+                        <p className="card-text">{desc}</p>
+                        <TagWrapper tag1="Variabel" tag2="Operator" tag3="Logic" tag4="Operasi"/>
+                        <Gap height={5}/>
+                        <Tombol buttonName="Start" onClick={()=> history.push(link)} />
                     </div>
                 </div>  
     )

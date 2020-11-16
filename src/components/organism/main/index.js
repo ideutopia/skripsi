@@ -7,12 +7,9 @@ const Main = () => {
         <div>
             <div className="Content-Wrapper">
                 <Card name="Welcome" desc="Dapatkan panduan praktis mengenai pemrograman dengan metode studi kasus pengembangan aplikasi!">
-                    <Greeting />
+                <Greeting />
                 </Card>
-                <Wrapper />
-
-                    
-                
+                <Wrapper />                
             </div>    
         </div>
     )

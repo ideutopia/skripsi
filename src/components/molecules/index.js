@@ -1,4 +1,8 @@
 import MiniCard from './mini_card';
 import Card from './card';
 import Wrapper from './wrapper_lab';
-export { Card, MiniCard, Wrapper};
+import Jumbotron from './jumbotron';
+import ContentWrapper from './content_wrapper';
+import Overview from './overview';
+import About from './about';
+export { Card, MiniCard, Wrapper, Jumbotron, ContentWrapper, Overview, About};

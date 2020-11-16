@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Tombol = ({buttonName}) => {
+const Tombol = ({buttonName, ...rest}) => {
     return (
         <div>
-            <button type="button" class="btn btn-outline-warning">{buttonName}</button>
+            <button type="button" className="btn btn-outline-warning" {...rest}>{buttonName}</button>
         </div>
     )
 }

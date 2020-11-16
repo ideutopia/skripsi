@@ -1,16 +1,16 @@
 import React from 'react'
 import {Greeting, Tombol} from '../../atoms'
-
+import {useHistory} from 'react-router-dom';
 const Card = ({name, desc}) => {
+    const history = useHistory();
     return (
         <div>
-            <div class="card mb-3 mt-2">
-                <div class="card-body">
+            <div className="card mb-3 mt-2">
+                <div className="card-body">
                     <Greeting />
                     <h2>{name}</h2>
-                    <p class="card-text">{desc}</p>
-                    <Tombol buttonName = "Lab"/>
-                    
+                    <p className="card-text">{desc}</p>
+                    <Tombol buttonName = "Lab" onClick={()=> history.push('/codelabs1')} />
                 </div>
             </div>
         </div>
