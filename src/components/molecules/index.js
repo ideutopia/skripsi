@@ -5,4 +5,5 @@ import Jumbotron from './jumbotron';
 import ContentWrapper from './content_wrapper';
 import Overview from './overview';
 import About from './about';
-export { Card, MiniCard, Wrapper, Jumbotron, ContentWrapper, Overview, About};
+import Output from './ouput';
+export { Card, MiniCard, Wrapper, Jumbotron, ContentWrapper, Overview, About, Output};

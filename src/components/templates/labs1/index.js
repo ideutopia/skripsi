@@ -8,9 +8,6 @@ import {starter, task2Code, task3Code, task1Code} from '../../../data/lab1/code.
 const Lab1 = () => {
     return (
         <div className="content-wrapper">
-           {/* <TinyCard title={data.overview.title} lastUpdate="07-10-2020" desc ={data.overview.desc}/>
-           <TinyCard title={data.preview.title} desc ={data.preview.desc} />
-           <TinyCard title={data.perintahPrint.title} desc ={data.perintahPrint.desc} code={data.perintahPrint.code} /> */}
            <About title={data.about.title} date= {data.about.update} />
            <Overview  title={data.overview.title} lastUpdate="07-10-2020" desc={data.overview.desc}/>
             <Code intruksi="Langkah pertama, buatlah sebuah class Java dengan nama biodata lalu isi kode awal sebagai berikut :" code={starter} penjelasan="Kode diatas apabila dijalankan tidak akan memunculkan apapun, akan kita tambahkan pada task selanjutnya, perhatikan tanda komentar task1, task2 dan task3 baris tersebut lah yang perlu diubah, jadi untuk baris diluar blok komentar biarkan default." />
