@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import { Header, Main } from '../../components/organism'
+import { Header, Main , Footer} from '../../components/organism'
 import {Lab1, Lab2, Lab3, Lab4, Lab5, Lab6, Lab7} from '../../components/templates';
 
 const MainApp = () => {
@@ -35,7 +35,7 @@ const MainApp = () => {
                     </Route>
                 </Switch>
             </Router>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

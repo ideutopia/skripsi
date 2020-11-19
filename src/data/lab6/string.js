@@ -1,7 +1,8 @@
-const dataString = {
+const lab6String = {
     judul : "Membuat Piramida Bintang dengan Looping",
     update : "10-11-2020",
     deskripsi : "Pada codelab ini anda akan membuat sebuah program yang akan menampilkan sebuah piramida dengan ukuran sesuai yang disikan pengguna. Untuk membuat program ini anda akan menerapakan perulangan for bersarang.",
+    link : '/codelabs6',
     intruksi : [
         "Untuk memulai silahkan buat class bernama segitigaBintang dan masukkan kode permulaan sebagai berikut :",
         "Pada blok kode task 1 tambahkan kode berikut ",
@@ -26,4 +27,4 @@ const dataString = {
     ]
 }
 
-export {dataString};
+export default lab6String;

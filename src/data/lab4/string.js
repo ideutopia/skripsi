@@ -1,7 +1,8 @@
-const dataString = {
+const lab4String = {
     judul : "Membuat Program Konverter Suhu Sederhana",
     update : "10-11-2020",
     deskripsi : "Pada codelab ini anda akan membuat sebuah program yang akan melakukan konversi suhu dari celcius ke satuan suhu yang lain, pada program ini anda akan menerapkan seleksi kondisi yang bernama switch.",
+    link : '/codelabs4',
     intruksi : [
         "Untuk memulai silahkan buat class bernama konverterSuhu dan masukkan kode permulaan sebagai berikut :",
         "Pada blok kode task 1 tambahkan kode berikut ",
@@ -23,4 +24,4 @@ const dataString = {
     ]
 }
 
-export {dataString};
+export default lab4String;

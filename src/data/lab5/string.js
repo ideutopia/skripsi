@@ -1,7 +1,8 @@
-const dataString = {
+const lab5String = {
     judul : "Membuat Program Deret Fibonnaci",
     update : "10-11-2020",
     deskripsi : "Pada codelab ini anda akan membuat sebuah program yang akan menampilkan deret bilangan Fibonnaci sesuai yang disikan pengguna. Untuk membuat program ini anda akan menerapakan perulangan for",
+    link : '/codelabs5',
     intruksi : [
         "Untuk memulai silahkan buat class bernama fibonnaci dan masukkan kode permulaan sebagai berikut :",
         "Pada blok kode task 1 tambahkan kode berikut ",
@@ -19,4 +20,4 @@ const dataString = {
     ]
 }
 
-export {dataString};
+export default lab5String;

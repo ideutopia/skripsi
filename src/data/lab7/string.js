@@ -1,7 +1,8 @@
-const dataString = {
+const lab7String = {
     judul : "Membuat Program Keranjang Belanja dengan While",
     update : "10-11-2020",
     deskripsi : "Pada codelab ini anda akan membuat sebuah program yang akan menampilkan sebuah piramida dengan ukuran sesuai yang disikan pengguna. Untuk membuat program ini anda akan menerapakan perulangan while, berbeda dengan perulangan for perulangan while dideklarasikan apabila kita ingin melakukan perulangan namun kita tidak menentukan secara eksplisit akhir dari perulangan itu.",
+    link : '/codelabs7',
     intruksi : [
         "Untuk memulai silahkan buat class bernama belanja dan masukkan kode permulaan sebagai berikut :",
         "Pada blok kode task 1 tambahkan kode berikut ",
@@ -20,4 +21,4 @@ const dataString = {
 
 }
 
-export {dataString};
+export default lab7String;
