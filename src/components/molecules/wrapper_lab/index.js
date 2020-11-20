@@ -36,6 +36,10 @@ const Wrapper = () => {
                     <div className="col-sm-6">
                         <MiniCard title= {dataString.lab7String.judul} desc= {dataString.lab7String.deskripsi} link={dataString.lab7String.link} />
                         <Gap height = {20} width={20}/>
+                    </div> 
+                    <div className="col-sm-6">
+                        <MiniCard title= {dataString.lab8String.judul} desc= {dataString.lab8String.deskripsi} link={dataString.lab8String.link} />
+                        <Gap height = {20} width={20}/>
                     </div>      
             </div>
         </div>

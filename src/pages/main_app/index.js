@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import { Header, Main , Footer} from '../../components/organism'
-import {Lab1, Lab2, Lab3, Lab4, Lab5, Lab6, Lab7} from '../../components/templates';
+import {Lab1, Lab2, Lab3, Lab4, Lab5, Lab6, Lab7, Lab8} from '../../components/templates';
 
 const MainApp = () => {
     return (
@@ -29,6 +29,9 @@ const MainApp = () => {
                     </Route>
                     <Route path="/codelabs7">
                         <Lab7 />
+                    </Route>
+                    <Route path="/codelabs8">
+                        <Lab8 />
                     </Route>
                     <Route path="/">
                         <Main />
