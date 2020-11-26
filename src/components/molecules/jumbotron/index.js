@@ -1,17 +1,14 @@
-import React from 'react'
-import {Tombol} from '../../atoms';
+import React from "react";
 
-const Jumbotron = ({title, lead, desc}) => {
-    return (
-        <div className="jumbotron">
-            <h1 className="display-4">{title}</h1>
-            <p className="lead">{lead}.</p>
-            <hr className="my-4" />
-            <p>{desc}</p>
-            {/* <Tombol name={buttonName} /> */}
-        </div>
-        
-    )
-}
+const Jumbotron = ({ title, lead, desc }) => {
+  return (
+    <div className="jumbotron mt-2">
+      <h1 className="display-4">{title}</h1>
+      <p className="lead">{lead}.</p>
+      <hr className="my-4" />
+      <p>{desc}</p>
+    </div>
+  );
+};
 
-export default Jumbotron
+export default Jumbotron;

@@ -1,12 +1,22 @@
-import React from 'react'
-
+import React from "react";
+import { Jumbotron, Card } from "../../components/molecules";
+import { Footer, Header } from "../../components/organism";
 const Help = () => {
-    return (
-        <div>
-          <h1>Help Page</h1> 
-          {alert("WKWKWKWK")} 
-        </div>
-    )
-}
+  return (
+    <div>
+      <Header />
+      <Jumbotron
+        title="Help"
+        lead="Com"
+        desc="Pelajari cara menggunakan media melalui intruksi dibawah"
+        className="jumbotron"
+      />
+      <div className="content-wrapper">
+        <Card />
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
 export default Help;
