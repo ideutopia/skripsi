@@ -3,7 +3,7 @@ import seleksiKondisi from "./data.js";
 const SeleksiKondisi = () => {
   return (
     <div>
-      <h1>{seleksiKondisi.judul}</h1>
+      <h1></h1>
     </div>
   );
 };

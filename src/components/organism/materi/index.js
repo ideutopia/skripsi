@@ -1,5 +1,6 @@
 import React from "react";
 import { List } from "../../../components/atoms";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import {
   algoritma,
   method,

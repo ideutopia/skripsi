@@ -6,4 +6,5 @@ import TinyCard from "./tinycard";
 import Code from "./codeblock";
 import Icon from "./material_icon";
 import List from "./list";
-export { Greeting, Gap, Tombol, Tag, TinyCard, Code, Icon, List };
+import MediaObject from "./media_object";
+export { Greeting, Gap, Tombol, Tag, TinyCard, Code, Icon, List, MediaObject };

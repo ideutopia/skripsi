@@ -45,19 +45,19 @@ const looping = {
               } while( i < 5);				// menentukan nilai tersebut dengan syarat yang ada
               `,
       },
-      BREAK: {
-        judul: "BREAK DAN CONTINUE",
-        deskripsi:
-          "Berfungsi untuk membuat syarat agar perulangan berhenti ataupun melewati dari suatu nilai yang ditetapkan.",
-        code: `for(int i = 0; i < 5; i++){
-                if(i == 3){
-                    break; // menghentikan sampai index ke 3 || continue; melewati nilai index ke 3	
-            }
-            System.out.println(“No” + i);
-            } 
-            `,
-      },
     },
+  },
+  BREAK: {
+    judul: "BREAK DAN CONTINUE",
+    deskripsi:
+      "Berfungsi untuk membuat syarat agar perulangan berhenti ataupun melewati dari suatu nilai yang ditetapkan.",
+    code: `for(int i = 0; i < 5; i++){
+            if(i == 3){
+                break; // menghentikan sampai index ke 3 || continue; melewati nilai index ke 3	
+        }
+        System.out.println(“No” + i);
+        } 
+        `,
   },
 };
 export default looping;

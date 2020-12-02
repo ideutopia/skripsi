@@ -30,7 +30,7 @@ const Materi = () => {
           <Route path="/operator">
             <Operator />
           </Route>
-          <Route path="/perulangan">
+          <Route path="/looping">
             <Looping />
           </Route>
           <Route path="/seleksi_kondisi">

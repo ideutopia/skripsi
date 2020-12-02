@@ -12,10 +12,10 @@ const variabel = {
     "Bertujuan untuk menonaktifkan barisan code agar tidak dijalankan atau juga untuk membantu programmer dalam membuat catatan di bagian-bagian code.",
   ],
   tugas: [
-    "Sebutkan macam-macam bahasa pemrograman yang Anda ketaui!",
+    "1. Sebutkan macam-macam bahasa pemrograman yang Anda ketaui!",
     "2.	Apa yang Anda ketahui tentang bahasa pemrograman Java!",
-    "Apa yang dimaksud dengan variabel!",
-    "Sebutkan tipe data pada bahasa java, beserta berikan contoh penulisan codenya!",
+    "3. Apa yang dimaksud dengan variabel!",
+    "4. Sebutkan tipe data pada bahasa java, beserta berikan contoh penulisan codenya!",
   ],
   code: [
     `public class Variable{
