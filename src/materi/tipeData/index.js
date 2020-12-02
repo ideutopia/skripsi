@@ -9,26 +9,26 @@ const TipeData = () => {
         <div className="card-body">
           <h1>{tipeData.judul}</h1>
           <p>{tipeData.deskripsi}</p>
-          <div className="card">
+          <div className="card mt-2">
             <h6 className="alert alert-info">{tipeData.header[0]}</h6>
             <div className="card-body">
               <p>{tipeData.konten[0]}</p>
               <p>{tipeData.konten[1]}</p>
             </div>
           </div>
-          <div className="card">
+          <div className="card mt-2">
             <h6 className="alert alert-info">{tipeData.header[1]}</h6>
             <div className="card-body">
               <p>{tipeData.konten[2]}</p>
             </div>
           </div>
-          <div className="card">
+          <div className="card mt-2">
             <h6 className="alert alert-info">{tipeData.header[2]}</h6>
             <div className="card-body">
               <pre>{tipeData.code[0]}</pre>
             </div>
           </div>
-          <div className="card">
+          <div className="card mt-2">
             <h6 className="alert alert-info">{tipeData.header[3]}</h6>
             <div className="card-body">
               <div className="card">
@@ -40,7 +40,7 @@ const TipeData = () => {
                   <pre>{tipeData.code[1]}</pre>
                 </div>
               </div>
-              <div className="card">
+              <div className="card mt-2">
                 <h6 className="alert alert-secondary">
                   {tipeData.subHeading[1]}
                 </h6>
@@ -49,7 +49,7 @@ const TipeData = () => {
                   <pre>{tipeData.code[2]}</pre>
                 </div>
               </div>
-              <div className="card">
+              <div className="card mt-2">
                 <h6 className="alert alert-secondary">
                   {tipeData.subHeading[2]}
                 </h6>

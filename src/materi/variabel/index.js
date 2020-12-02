@@ -8,7 +8,7 @@ const Variabel = () => {
         <div className="card-body">
           <h1>{variabel.judul}</h1>
           <p>{variabel.deskripsi}</p>
-          <div className="card">
+          <div className="card mt-2">
             <h6 className="alert alert-info">{variabel.header[0]}</h6>
             <div className="card-body">
               <p>{variabel.konten[0]}</p>
@@ -17,7 +17,7 @@ const Variabel = () => {
               <pre>{variabel.code[0]}</pre>
             </div>
           </div>
-          <div className="card">
+          <div className="card mt-2">
             <h6 className="alert alert-info">{variabel.header[1]}</h6>
             <div className="card-body">
               <p>{variabel.konten[2]}</p>
@@ -27,7 +27,7 @@ const Variabel = () => {
               <p>{variabel.konten[4]}</p>
             </div>
           </div>
-          <div className="card">
+          <div className="card mt-2">
             <h6 className="alert alert-info">{variabel.header[2]}</h6>
             <div className="card-body">
               <p>{variabel.konten[5]}</p>
@@ -35,7 +35,7 @@ const Variabel = () => {
               <pre>{variabel.code[2]}</pre>
             </div>
           </div>
-          <div className="card">
+          <div className="card mt-2">
             <h6 className="alert alert-info">Latihan</h6>
             <div className="card-body">
               <ul className="list-group">

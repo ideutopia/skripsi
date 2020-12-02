@@ -17,12 +17,12 @@ const Looping = () => {
               <pre>{looping.FOR.code}</pre>
             </div>
           </div>
-          <div className="card">
+          <div className="card mt-2">
             <h6 className="alert alert-info">
               Perulangan {looping.while.judul}
             </h6>
             <div className="card-body">
-              <div className="card">
+              <div className="card mt-2">
                 <h6 className="alert alert-info">
                   Perulangan {looping.while.konten.WHILE.judul}
                 </h6>
@@ -31,7 +31,7 @@ const Looping = () => {
                   <pre>{looping.while.konten.WHILE.code}</pre>
                 </div>
               </div>
-              <div className="card">
+              <div className="card mt-2">
                 <h6 className="alert alert-info">
                   Perulangan {looping.while.konten.DOWHILE.judul}
                 </h6>
@@ -43,7 +43,7 @@ const Looping = () => {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card mt-2">
             <h6 className="alert alert-info">{looping.BREAK.judul}</h6>
             <div className="card-body">
               <p>{looping.BREAK.deskripsi}</p>

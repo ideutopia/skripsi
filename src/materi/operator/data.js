@@ -8,7 +8,7 @@ const operator = {
       head: [
         "OPERATOR MATEMATIKA",
         "OPERATOR RELASI",
-        "PERSAMAAN OPERATOR",
+        "OPERATOR PERSAMAAN",
         "TUGAS",
       ],
       konten: {
@@ -109,7 +109,7 @@ const operator = {
           konten:
             "1.	Operator ! akan menampilkan nilai sebaliknya dari true menjadi false dan false menjadi true",
           code: `System.out.println(!false);
-                System.out.println( !(5>=1) );
+System.out.println( !(5>=1) );
                 `,
         },
       },

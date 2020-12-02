@@ -20,7 +20,7 @@ const Array = () => {
               </ul>
             </div>
           </div>
-          <div className="card">
+          <div className="card mt-2">
             <div className="card-body">
               <h6 className="alert alert-info">{array.array2D.judul}</h6>
               <p>{array.array2D.deskripsi}</p>
